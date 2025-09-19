@@ -1,0 +1,27 @@
+        ORG A
+LOOP,   CLE           / Clear E
+        LDA B         
+        CIR           / Shift right
+        STA B         
+        SZE           / If E = 0 skip next
+        BUN ONE       / If bit was 1
+        BUN ZRO       / If bit was 0
+
+ONE,    LDA A         
+        ADD C         
+        STA C         
+
+ZRO,    LDA A         
+        CIL           / ×2
+        STA A         
+
+        ISZ COUNT       / Increment counter
+        BUN LOOP       
+
+        HLT           / Done
+
+COUNT,    DEC -8        
+A,      HEX 0005      
+B,      HEX 0004
+C,      HEX 0000
+        END
