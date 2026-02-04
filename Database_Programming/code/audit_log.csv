@@ -1,0 +1,37 @@
+logID,recordID,tableName,columnName,oldValue,newValue,actionType,timestamp
+1,1,Role,roleName,-,TEST CASE 2,INSERT,1/22/2026 1:24
+2,1,Role,description,-,TC2,INSERT,1/22/2026 1:24
+3,1,Company,companyName,-,TC3,INSERT,1/22/2026 1:26
+4,1,Company,phone,-,333,INSERT,1/22/2026 1:26
+5,1,Company,email,-,TC3@GMAIL.COM,INSERT,1/22/2026 1:26
+6,1,Company,companyName,TC3,TC3 UPDATED,UPDATE,1/22/2026 1:27
+7,1,Company,*,-,-,DELETE,1/22/2026 1:28
+8,1,Company,companyName,-,TC3,INSERT,1/22/2026 1:32
+9,1,Company,phone,-,333,INSERT,1/22/2026 1:32
+10,1,Company,email,-,TC3@GMAIL.COM,INSERT,1/22/2026 1:32
+11,1,User,fullName,-,TC4,INSERT,1/22/2026 1:32
+12,1,User,ssn,-,44,INSERT,1/22/2026 1:32
+13,1,User,email,-,TC4@GMAIL.COM,INSERT,1/22/2026 1:32
+14,1,User,phone,-,444,INSERT,1/22/2026 1:32
+15,1,User,roleID,-,1,INSERT,1/22/2026 1:32
+16,1,User,companyID,-,1,INSERT,1/22/2026 1:32
+17,2,Company,companyName,-,TEST,INSERT,1/22/2026 1:38
+18,2,Company,phone,-,12,INSERT,1/22/2026 1:38
+19,2,Company,email,-,TEST@GMAIL.COM,INSERT,1/22/2026 1:38
+20,3,Company,companyName,-,LOGGING TEST,INSERT,1/22/2026 2:14
+21,3,Company,phone,-,098,INSERT,1/22/2026 2:14
+22,3,Company,email,-,LOG@GMAIL.COM,INSERT,1/22/2026 2:14
+23,4,Company,companyName,-,LOGING V2,INSERT,1/22/2026 2:16
+24,4,Company,phone,-,000,INSERT,1/22/2026 2:16
+25,4,Company,email,-,LOG2@GMAIL.COM,INSERT,1/22/2026 2:16
+26,4,Company,*,-,-,DELETE,1/22/2026 2:20
+27,9003,Company,companyName,-,SimCompany_3,INSERT,2026-01-22 02:35:32
+28,9003,Company,phone,-,0700003,INSERT,2026-01-22 02:35:32
+29,9003,Company,email,-,simcompany_3@demo.com,INSERT,2026-01-22 02:35:32
+30,2,Company,companyName,TEST,UpdCompany_2,UPDATE,2026-01-22 02:35:36
+31,2,Company,phone,12,0790002,UPDATE,2026-01-22 02:35:36
+32,2,Company,email,TEST@GMAIL.COM,updcompany_2@demo.com,UPDATE,2026-01-22 02:35:36
+33,9004,Company,companyName,-,SimCompany_4,INSERT,2026-01-22 02:40:22
+34,9004,Company,phone,-,0700004,INSERT,2026-01-22 02:40:22
+35,9004,Company,email,-,simcompany_4@demo.com,INSERT,2026-01-22 02:40:22
+36,3,Company,*,-,-,DELETE,2026-01-23 19:13:51
